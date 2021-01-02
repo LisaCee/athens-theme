@@ -1,0 +1,42 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+$primary: #0d5eaf; // Greek Flag blue
+$primary-light: #578be1;
+$primary-dark: #00357f;
+
+$highlight: #f8be19;
+
+body {
+	font-size: 18px;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.top-header {
+	background: black;
+	height: 115px;
+	display: flex;
+	align-items: center;
+	// background-image: url(../images/greece-1594689_1920.jpg);
+	// background-size: cover;
+	// background-position: center;
+	// background-repeat: no-repeat;
+	div.top-header-contact {
+		display: flex;
+		justify-content: flex-end;
+		a {
+			color: white;
+			padding: 0.5em 1em;
+			border: 2px solid white;
+			border-radius: 1.5em;
+			font-size: 1.2rem;
+			margin-top: 1.5rem;
+			.fa {
+				color: $highlight;
+				margin-right: 0.5em;
+			}
+		}
+	}
+}
+
+.bg-primary {
+	background-color: $primary !important;
+}
