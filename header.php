@@ -32,10 +32,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="top-header">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-7">
+					<div class="col">
 						<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="Logo"></a>
 					</div>
-					<div class="col-lg-5">
+					<div class="col">
 						<div class="top-header-contact">
 							<a href="tel:2539397444"><i class="fa fa-phone fa-lg"></i>Order</a>
 						</div>
@@ -57,26 +57,26 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			
-			<div class="container"></div>
-			<div class="row">
-				<div class="column">
-					
-				<!-- The WordPress Menu goes here -->
-				<?php
-				wp_nav_menu(
-					array(
-						'theme_location'  => 'primary',
-						'container_class' => 'collapse navbar-collapse',
-						'container_id'    => 'navbarNavDropdown',
-						'menu_class'      => 'navbar-nav ml-auto',
-						'fallback_cb'     => '',
-						'menu_id'         => 'main-menu',
-						'depth'           => 2,
-						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
-					)
-				);
-				?>
-				</div>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						
+					<!-- The WordPress Menu goes here -->
+						<?php
+						wp_nav_menu(
+							array(
+								'theme_location'  => 'primary',
+								'container_class' => 'collapse navbar-collapse',
+								'container_id'    => 'navbarNavDropdown',
+								'menu_class'      => 'nav navbar-nav navbar-right',
+								'fallback_cb'     => '',
+								'menu_id'         => 'main-menu',
+								'depth'           => 2,
+								'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
+							)
+						);
+						?>
+					</div>
 				</div>
 			</div><!-- .container -->
 

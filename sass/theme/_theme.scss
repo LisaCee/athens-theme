@@ -5,6 +5,9 @@ $primary-dark: #00357f;
 
 $highlight: #f8be19;
 
+// * {
+// 	border: 1px solid white;
+// }
 body {
 	font-size: 18px;
 	font-family: "Courier New", Courier, monospace;
@@ -39,4 +42,9 @@ body {
 
 .bg-primary {
 	background-color: $primary !important;
+}
+
+#main-nav .container {
+	display: flex;
+	justify-content: flex-end;
 }
