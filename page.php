@@ -29,18 +29,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
 
 			<main class="site-main" id="main">
+				<h1>Athens Pizza and Pasta</h1>
+				<span>Voted "Best Pizza In Auburn"-Auburn Reporter</span>
 
-				<?php
-				while ( have_posts() ) {
-					the_post();
-					get_template_part( 'loop-templates/content', 'page' );
-
-					// If comments are open or we have at least one comment, load up the comment template.
-					if ( comments_open() || get_comments_number() ) {
-						comments_template();
-					}
-				}
-				?>
+				<img src="<?php echo get_template_directory_uri(); ?>/images/ivan-torres-unsplash.jpg">
 
 			</main><!-- #main -->
 
