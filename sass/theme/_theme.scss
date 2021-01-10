@@ -22,6 +22,7 @@ body {
 	// background-size: cover;
 	// background-position: center;
 	// background-repeat: no-repeat;
+
 	div.top-header-contact {
 		display: flex;
 		justify-content: flex-end;
@@ -47,4 +48,30 @@ body {
 #main-nav .container {
 	display: flex;
 	justify-content: flex-end;
+}
+
+.entry-title {
+	display: none;
+}
+
+.menu {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.menu-heading {
+	border: 1px solid lightgray;
+	background: lightgray;
+	color: $primary-dark;
+	display: inline;
+	padding: 1%;
+	margin: 1%;
+}
+
+ul {
+	list-style-type: none;
+	li {
+		font-weight: bolder;
+	}
 }

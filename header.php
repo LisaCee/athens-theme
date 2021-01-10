@@ -37,7 +37,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</div>
 					<div class="col">
 						<div class="top-header-contact">
-							<a href="tel:2539397444"><i class="fa fa-phone fa-lg"></i>Order</a>
+							<a href="tel:2539397444"><i class="fa fa-phone fa-lg d-none d-sm-inline"></i>Order</a>
 						</div>
 					</div>
 				</div> <!-- row -->
