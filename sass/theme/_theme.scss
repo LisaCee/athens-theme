@@ -52,6 +52,7 @@ body {
 
 .entry-title {
 	display: none;
+<<<<<<< HEAD
 }
 
 .menu {
@@ -75,3 +76,13 @@ ul {
 		font-weight: bolder;
 	}
 }
+=======
+ }
+
+#main {
+	h1 {
+		color: $primary;
+		font-weight: 900;
+	}
+}
+>>>>>>> 3a54e376f912011fdc620947ab7460bb69d8f34e

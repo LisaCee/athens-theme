@@ -31,6 +31,7 @@ endif;
 			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
 
 			<main class="site-main" id="main">
+<<<<<<< HEAD
 			<img src="<?php echo get_template_directory_uri(); ?>/images/columns.jpg" alt="Greek columns in blue sky"></img>
 				<h2>Menu</h2>
 				<div class="menu">
@@ -213,7 +214,6 @@ endif;
 					</div>
 					
 				</div> <!-- end menu -->
-
 			</main><!-- #main -->
 
 			<!-- Do the right sidebar check -->
